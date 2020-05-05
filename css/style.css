@@ -474,27 +474,55 @@ footer hr {
 
 	.page-header {
 		position: relative;
-		height: 700px;
+		height: 500px;
 		width: auto;
 		background-size: cover;
-		margin-top: 10px;
+		margin-top: 0px;
 	}
 	
 	#home {
-		padding-top: 20px;
-		padding-bottom: 50px;
+		padding-top: 10px;
+		padding-bottom: 30px;
 	}
 	
-	.portfolio-header {
+	.portfoilo-header {
 		font-size: 75px;
 	}
+	
+	 grid-container {
+		 grid-template-columns: 1fr;
+        grid-template-areas:
+			'work'
+			'edu';
+    }
+
+    .item1 {
+        display: none;
+		visibility: hidden;
+    }
+
+    .item4 {
+        display: none;
+    }
+
+    .item3 {
+        display: none;
+    }
+	
+	.item2 {
+		display: none;
+	}
+}
+	
+	section:not(.item1) { display: none; }
+	section:not(.item4) { display: none; }
 	
 	h1 {
     font-size: 38px;
   }
 
   h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 35px;
   }
 
@@ -516,7 +544,7 @@ footer hr {
     padding-right: 0px;
   }
 
- 
+	
 
   footer {
     text-align: center;
