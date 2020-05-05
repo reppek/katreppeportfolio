@@ -287,6 +287,9 @@ a:hover, a:active, a:focus {
 	text-align: center;
 }
 
+.header-tagline {
+	font-size: 33px;
+}
 
 #portfolio {
 	background: #F5F5F5;
@@ -350,7 +353,7 @@ blog {
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
- color: white
+ color: white;
 
 }
 
@@ -470,6 +473,8 @@ footer hr {
 	font-size: 18px;
 }
 
+
+
 @media (max-width: 767px) {
 
 	.page-header {
@@ -478,23 +483,30 @@ footer hr {
 		width: auto;
 		background-size: cover;
 		margin-top: 0px;
-	}
-	
-	#home {
 		padding-top: 10px;
 		padding-bottom: 30px;
 	}
 	
-	.portfoilo-header {
-		font-size: 75px;
-	}
+	.portfolio-header {
+	font-size: 50px;
+	padding-top: 0px;
+	text-align: center;
+}
+
+	.header-tagline {
+	font-size: 15px;
+}
 	
-	 grid-container {
-		 grid-template-columns: 1fr;
+.grid-container {
+	background-color: none;
         grid-template-areas:
 			'work'
 			'edu';
     }
+	
+.grid-container > div {
+		background-color: none;
+	}
 
     .item1 {
         display: none;
@@ -513,9 +525,6 @@ footer hr {
 		display: none;
 	}
 }
-	
-	section:not(.item1) { display: none; }
-	section:not(.item4) { display: none; }
 	
 	h1 {
     font-size: 38px;
