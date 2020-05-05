@@ -288,7 +288,10 @@ a:hover, a:active, a:focus {
 }
 
 
-	
+#portfolio {
+	background: #F5F5F5;
+}	
+
 #portfolio small {
   color: #f0f0f0;
   font-size: 10px;
@@ -337,22 +340,23 @@ a:hover, a:active, a:focus {
 
 
 blog {
-	background-color: f0EBF4
+	background-color: #f0EBF4
 }
 
 .btn {
-  background-color: lightgray;
-  border: none;
+  background-color: black;
+  border: white;
   color: white;
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
- color: black;
+ color: white
 
 }
 
 #contact {
-	background-color: #f0EBF4;
+	background-color: #f5f5f5;
+	
 }
 
 #contact .col-md-6,
@@ -363,7 +367,7 @@ blog {
 #contact .form-control {
   border: 1px solid #f0f0f0;
   box-shadow: none;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 10px;
   transition: all 0.4s ease-in-out;
 }
@@ -390,6 +394,9 @@ blog {
   background: #000;
 }
 
+#resume {
+	margin-bottom: 100px;
+}
 .resume .fa-download {
 	padding-left: 10px;
 }
@@ -417,15 +424,51 @@ footer hr {
 }
 
 
+.item1 { grid-area: skills; }
+.item2 { grid-area: work; }
+.item3 { grid-area: edu; }
+.item4 { grid-area: cert; }
 
 
+.grid-container {
+  display: grid;
+	grid-template-columns: 250px auto auto;
+  grid-template-areas:
+    'skills work work'
+    'skills work work'
+    'cert edu edu';
+  grid-gap: 15px;
+  background-color: white;
+  padding: 5px;
+	font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+}
 
+.grid-container > div {
+  background-color: white;
+  text-align: left;
+  padding: 20px 10px;
+  font-size: 30px;
+	
+}
 
+.grid-container > .item1 {
+	text-align: right;
+}
 
+.grid-container > .item4 {
+	text-align: right;
+}
 
+#skill-list {
+  list-style-type: none;
+	font-size: 20px;
+}
 
-
-
+#certlist {
+  list-style-type: none;
+	font-size: 18px;
+}
 
 @media (max-width: 767px) {
 
