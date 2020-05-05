@@ -479,22 +479,27 @@ footer hr {
 
 	.page-header {
 		position: relative;
-		height: 500px;
+		height: 600px;
 		width: auto;
 		background-size: cover;
-		margin-top: 0px;
-		padding-top: 10px;
-		padding-bottom: 30px;
+		margin-top: 50px;
+		padding-top: 20px;
+		padding-bottom: 0px;
 	}
+	.page-header {
+	background: url("../images/background4mobile.png") fixed center no-repeat;
+ background-size: cover;
+	margin-bottom: 25px;
+}
 	
 	.portfolio-header {
-	font-size: 50px;
-	padding-top: 0px;
+	font-size: 65px;
+	padding-top: 15px;
 	text-align: center;
 }
 
 	.header-tagline {
-	font-size: 15px;
+	font-size: 20px;
 }
 	
 .grid-container {
