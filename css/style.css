@@ -489,9 +489,9 @@ footer hr {
 		padding-bottom: 0px;
 	}
 	.page-header {
-	background: url("../images/1resizebackground.jpg") fixed center no-repeat;
+	background: url("../images/1desktop.jpg") fixed center no-repeat;
  background-size: cover;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 	.portfolio-header {
 		font-size: 85px;
@@ -501,7 +501,7 @@ footer hr {
 	font-size: 65px;
 	padding-top: 15px;
 	text-align: center;
-		margin-top: 25px;
+		margin-top: 15px;
 }
 
 	.header-tagline {
