@@ -477,9 +477,11 @@ footer hr {
 
 @media (max-width: 767px) {
 
+	
+	
 	.page-header {
 		position: relative;
-		height: 600px;
+		height: 500px;
 		width: auto;
 		background-size: cover;
 		margin-top: 50px;
@@ -491,26 +493,32 @@ footer hr {
  background-size: cover;
 	margin-bottom: 25px;
 }
-	
 	.portfolio-header {
+		font-size: 85px;
+	}
+	
+	#name-header {
 	font-size: 65px;
 	padding-top: 15px;
 	text-align: center;
+		margin-top: 100px;
 }
 
 	.header-tagline {
 	font-size: 20px;
 }
+
+
 	
 .grid-container {
-	background-color: none;
+	background-color: #f0EBF4;
         grid-template-areas:
 			'work'
 			'edu';
     }
 	
 .grid-container > div {
-		background-color: none;
+		background-color: #f0EBF4;
 	}
 
     .item1 {
