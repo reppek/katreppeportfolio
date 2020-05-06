@@ -481,15 +481,11 @@ footer hr {
 	
 	.page-header {
 		position: relative;
-	
 		width: auto;
-		background-size: cover;
 		margin-top: 50px;
 		padding-top: 20px;
 		padding-bottom: 0px;
-	}
-	.page-header {
-	background: url("../images/1desktop.jpg") fixed center no-repeat;
+	background: url("../images/2desktop.jpg") fixed center no-repeat;
  background-size: cover;
 	margin-bottom: 15px;
 }
