@@ -480,14 +480,15 @@ footer hr {
 	
 	
 	.page-header {
-		position: relative;
+		/*position: relative;
 		width: auto;
 		margin-top: 50px;
 		padding-top: 20px;
-		padding-bottom: 0px;
+		padding-bottom: 0px;*/
 	background: url("../images/2desktop.jpg") fixed center no-repeat;
  background-size: cover;
 	margin-bottom: 15px;
+		height: 50%;
 }
 	.portfolio-header {
 		font-size: 85px;
