@@ -480,12 +480,13 @@ footer hr {
 	
 	
 	.page-header {
+		
 		/*position: relative;*/
 		/*width: auto;*/
 		/*margin-top: 50px;*/
 		padding-top: 20px;
 		padding-bottom: 0px;
-	background: url("../images/2desktop.jpg") fixed center center no-repeat;
+	background: url("../images/lasttrydesktop.jpg") fixed center center no-repeat;
  background-size: cover;
 	margin-bottom: 15px;
 		/*height: 50%;*/
@@ -496,7 +497,7 @@ footer hr {
 	
 	#name-header {
 	font-size: 65px;
-	padding-top: 15px;
+	padding-top: 12px;
 	text-align: center;
 		margin-top: 15px;
 }
