@@ -479,12 +479,12 @@ footer hr {
 
 	
 	
-	.page-header {
+	/*.page-header {
 		
 		/*position: relative;*/
 		/*width: auto;*/
 		/*margin-top: 50px;*/
-		padding-top: 20px;
+		/*padding-top: 20px;
 		padding-bottom: 0px;
 	background: url("../images/mobilebackground.jpg") fixed center center no-repeat;
  background-size: cover;
